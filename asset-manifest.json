@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/arProject/static/css/main.ea656678.css",
+    "main.js": "/arProject/static/js/main.e1444ced.js",
+    "static/media/trash.png": "/arProject/static/media/trash.e060d8ee7e1f93820abe.png",
+    "static/media/user.png": "/arProject/static/media/user.05d0404ad8a0ab5bdefa.png",
+    "index.html": "/arProject/index.html",
+    "main.ea656678.css.map": "/arProject/static/css/main.ea656678.css.map",
+    "main.e1444ced.js.map": "/arProject/static/js/main.e1444ced.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea656678.css",
+    "static/js/main.e1444ced.js"
+  ]
+}
