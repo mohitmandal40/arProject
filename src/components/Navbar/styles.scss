@@ -1,0 +1,58 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	color: #5c5c5c;
+	height: 8vh;
+	align-items: center;
+	border-bottom: 2px solid #e9edf3;
+
+	&__logo {
+		display: flex;
+		align-items: center;
+
+		img {
+			width: 30px;
+			margin: 0 32px;
+		}
+
+		.application {
+			margin: 0;
+		}
+	}
+
+	&__profile {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		// div {
+		// 	margin: 0 8px;
+		// }
+		&__icon {
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			background: red;
+			display: flex;
+			justify-self: center;
+			align-items: center;
+			margin-right: 8px;
+
+			img {
+				width: 100%;
+				height: 100%;
+				border-radius: 50%;
+			}
+
+			&__dropdown {
+				margin-left: 1rem;
+				background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAUCAMAAACtdX32AAAAdVBMVEUAAAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhMdQaAAAAJ3RSTlMAAAECAwQGBwsOFBwkJTg5RUZ4eYCHkJefpaytrsXGy8zW3+Do8vNn0bsyAAAAYElEQVR42tXROwJDQAAA0Ymw1p9kiT+L5P5HVEi3qJn2lcPjtIuzUIJ/rhIGy762N3XaThqMN1ZPALsZPEzG1x8LrFL77DHBnEMxBewz0fJ6LyFHTPL7xhwzWYrJ9z22AqmQBV757MHfAAAAAElFTkSuQmCC);
+				background-position: 95%;
+				color: red;
+				background-repeat: no-repeat;
+				padding: 1rem;
+				border-radius: 0;
+				margin-right: 2rem;
+			}
+		}
+	}
+}

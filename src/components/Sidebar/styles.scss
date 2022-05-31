@@ -1,0 +1,38 @@
+.sidebar {
+	height: 100vh;
+	position: fixed;
+	width: 20%;
+	border-right: 2px solid #e9edf3;
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: grid;
+		grid-template-columns: 1fr;
+
+		li,
+		.item {
+			padding: 1.5rem;
+			padding-left: 3rem;
+			color: #5c5c5c;
+			text-decoration: none;
+			a {
+				text-decoration: none;
+				color: #5c5c5c;
+			}
+
+			&:hover {
+				background-color: #57ca85;
+			}
+		}
+	}
+}
+
+.active {
+	background-color: #57ca85;
+	padding: 1.5rem;
+	padding-left: 3rem;
+	color: #5c5c5c;
+	text-decoration: none;
+}

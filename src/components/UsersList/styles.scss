@@ -1,0 +1,38 @@
+table {
+	border: 1px solid #dedede;
+	border-collapse: collapse;
+	width: 70%;
+}
+
+tr,
+td,
+th {
+	border: 1px solid #dedede;
+	// padding: 4px 8px 4px 4px;
+}
+
+td,
+th {
+	padding: 28px 50px 28px 28px;
+	text-align: left;
+}
+
+.thead {
+	background: #ccc;
+	position: sticky;
+	top: 0;
+}
+
+.delete {
+	width: 20px;
+	cursor: pointer;
+}
+
+button {
+	background: #57ca85;
+	border: none;
+	padding: 8px 16px;
+	border-radius: 30px;
+	margin-bottom: 2rem;
+	color: #fff;
+}
