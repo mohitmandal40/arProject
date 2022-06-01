@@ -11,7 +11,10 @@ const Navbar = () => {
 						alt="logo"
 					/>
 				</div>
-				<div className="navbar__logo__application">My Application</div>
+				<div className="navbar__logo__application">
+					My Application
+					<span className="navbar__profile__icon__dropdown"></span>
+				</div>
 			</div>
 			<div className="navbar__profile">
 				<div className="navbar__profile__icon">

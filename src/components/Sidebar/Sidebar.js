@@ -5,27 +5,24 @@ import "./styles.scss";
 const Sidebar = () => {
 	return (
 		<div className="sidebar">
-			<ul>
-				<li>
-					<NavLink to="/products">Products</NavLink>
-				</li>
-				<li>
-					<NavLink to="/demoscript">Demo Script</NavLink>
-				</li>
-				<li>
-					<NavLink to="/customers">Customers</NavLink>
-				</li>
-				<li>
-					<NavLink to="/sales">Sales Team</NavLink>
-				</li>
-				<li>
-					<NavLink to="/demos">Demos</NavLink>
-				</li>
-
-				<NavLink className="active" to="/settings">
-					Settings
-				</NavLink>
-			</ul>
+			<NavLink to="/">
+				<p>Products</p>
+			</NavLink>
+			<NavLink to="/demoscript">
+				<p>Demo Script</p>
+			</NavLink>
+			<NavLink to="/customers">
+				<p>Customers</p>
+			</NavLink>
+			<NavLink to="/sales-team">
+				<p>Sales Team</p>
+			</NavLink>
+			<NavLink to="/demo">
+				<p> Demos</p>
+			</NavLink>
+			<NavLink to="/settings">
+				<p> Settings</p>
+			</NavLink>
 		</div>
 	);
 };

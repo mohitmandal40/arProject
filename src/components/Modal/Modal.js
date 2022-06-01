@@ -18,7 +18,7 @@ const Modal = ({ showModal, closeModal, addUserData }) => {
 			clearTimeout(timerRef.current);
 			timerRef.current = setTimeout(() => {
 				setReturnContent(showModal);
-			}, 100);
+			}, 300);
 		}
 
 		return () => {
@@ -58,7 +58,7 @@ const Modal = ({ showModal, closeModal, addUserData }) => {
 	const modal = (
 		<>
 			<div className="backdrop" onClick={closeModalHandler}></div>
-			<div className={`modal ${showModal ? "showModal" : "hidemodal"}`}>
+			<div className={`modal ${showModal ? "showmodal" : "hidemodal"}`}>
 				<div className="modal__left">
 					<div className="modal__left__img">
 						<img src={userImg} alt="userImg" />

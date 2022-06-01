@@ -1,3 +1,14 @@
+.backdrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(12, 12, 13, 0.88);
+	opacity: 0.7;
+	z-index: 1000;
+}
+
 .modal {
 	position: absolute;
 	background: #fff;
@@ -105,6 +116,32 @@
 	}
 }
 
+.showmodal {
+	animation: slideIn 0.2s linear;
+}
+
+.hidemodal {
+	animation: slideOut 0.2s both;
+}
+
+@keyframes slideIn {
+	0% {
+		top: 0;
+	}
+	100% {
+		top: 50%;
+	}
+}
+
+@keyframes slideOut {
+	0% {
+		top: 50%;
+	}
+	100% {
+		top: -40%;
+	}
+}
+
 @media (max-width: 1160px) {
 	.modal {
 		grid-template-columns: 1fr;
@@ -127,22 +164,6 @@
 	}
 }
 
-.showmodal {
-	animation: slideIn 0.5s linear;
-}
-
-// .hidemodal {
-// 	animation: slideOut 0.5s both;
-// }
-
-@keyframes slideIn {
-	0% {
-		bottom: -100vh;
-	}
-	100% {
-		bottom: 0;
-	}
-}
 // @keyframes slideIn {
 // 	0% {
 // 		bottom: 0;
@@ -151,14 +172,3 @@
 // 		bottom: -100vh;
 // 	}
 // }
-
-.backdrop {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-color: rgba(12, 12, 13, 0.88);
-	opacity: 0.7;
-	z-index: 1000;
-}

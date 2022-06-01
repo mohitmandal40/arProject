@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Sidebar from "../../components/Sidebar/Sidebar";
-import UserTable from "../../components/UsersList/UsersList";
+import UsersList from "../../components/UsersList/UsersList";
 
 const data = [
 	{
@@ -49,17 +48,12 @@ const Settings = () => {
 	};
 
 	return (
-		<div className="main">
-			<div className="main__sidebar">{<Sidebar />}</div>
-			<div className="main__tableContent">
-				<UserTable
-					usersListData={usersList}
-					deleteUserData={deleteUserHandler}
-					addUserHandler={addUserHandler}
-					filterUserData={filterUserData}
-				/>
-			</div>
-		</div>
+		<UsersList
+			usersListData={usersList}
+			deleteUserData={deleteUserHandler}
+			addUserHandler={addUserHandler}
+			filterUserData={filterUserData}
+		/>
 	);
 };
 
