@@ -11,7 +11,7 @@ import Demo from "./pages/Demo";
 
 function App() {
 	return (
-		<BrowserRouter basename="/arProject">
+		<BrowserRouter>
 			<Navbar />
 			<Routes>
 				<Route element={<MainContent />}>
